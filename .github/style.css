@@ -1,0 +1,28 @@
+:root{
+    --black-300: #212121;
+
+    --purple-300: #8833FF;
+
+
+}
+body{background-color: var(--black-300); #212121; 
+        margin: 0;
+        padding: 0;
+}
+.backgroundHeaderColor{
+    background-color: 
+}
+.containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 10%;
+}
+
+
+
+.logoSite{
+    width: 150px;
+    height: 150px;
+}
