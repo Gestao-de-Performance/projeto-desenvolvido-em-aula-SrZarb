@@ -1,3 +1,4 @@
+
 :root{
     --black-300: #212121;
 
@@ -10,7 +11,7 @@ body{background-color: var(--black-300); #212121;
         padding: 0;
 }
 .backgroundHeaderColor{
-    background-color: 
+    background-color: var(--purple-300);
 }
 .containerHeader{
     display: flex;

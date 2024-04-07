@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site do Zarb </title>
-</head>
-<body>
-    <header >
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description"content="descrição de pagina">
+            <meta name="keywords" content="zarb, site do zarb, unintese, escola de programadores, programador, html, css, javascript, Progamador, PROGRAMADOR">
+            <meta name="author" content="zarb">
 
-        <div class="containerHeader">
-            <img class="logoSite" src="escola-de-programadores.png">
-            <nav class="containerButtons">
-              <a>Apresentação</a>
-              <a>Skills</a>
-              <a>Contato</A>
-                <a class="buttonHeader"
-                href="#apresentacao">Apresentação"</a>
-                <a href=""></a>
-            </nav>
+            <title>Site do Zarb </title>
+            <link rel="icon" href=".github/logo-unintese-simples.ico" type="image/x-icon">
+            <link rel="stylesheet" href="style.css">
+            <style>
+                .containerHeader{
 
-
-        </div>
-    </header>
+                }
+            </style>
+    </head>
+    <body style="margin: 0;">
+        <header >
+        <div class="backgroundHeaderColor">
+            <div class="containerHeader" style="display:flex;
+            align-items: center;
+            justify-content: space-between;">
+                 <img class="logoSite" src="escola-de-programadores.png" style="width: 150px; height: auto;">
+                 <nav class="containerButtons" style="padding-right: 2%;">
+                     <a class="buttonHeader" href="#apresentacao">Apresentação</a>
+                     <a class="buttonHeader" href="skills">Skills</a>
+                     <a class="buttonHeader" href="contato">Contato</A>
+                 </nav>
+            </div>
+        </div>    
+        </header>
     <main>
         <section title="Apresentação">
-            <div>
+            <div id="apresentacao">
                 <div>
                     <h1>Site do Zarb</h1>
-                    <p>Você sabia que ter um site curto e poderoso pode impulsionar seus negócios? ✨ Deixe-nos ajudá-lo a construir uma presença online impactante em apenas alguns passos simples. Com designs elegantes e funcionais, nós da [Nome da sua empresa] criamos sites curtos e eficazes que capturam a essência do seu negócio. 🎯
+                    <p style="color: #fff">Você sabia que ter um site curto e poderoso pode impulsionar seus negócios? ✨ Deixe-nos ajudá-lo a construir uma presença online impactante em apenas alguns passos simples. Com designs elegantes e funcionais, nós da [Nome da sua empresa] criamos sites curtos e eficazes que capturam a essência do seu negócio. 🎯
 
                         ✔️ Site feito sob medida para suas necessidades
                         ✔️ Design moderno e responsivo
@@ -40,7 +49,7 @@
             </div>
         </section> 
         <section title="Skills">
-            <div>
+            <div id="skills">
                 <div>
                     <img src="png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png">
                     <h2>HTML</HTML><html></html></h2>
@@ -65,15 +74,16 @@
             <p>Preencha o formulário e entrarei em contato</p>
             <div>
                 <form>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome">
+                   <label for="nome">Nome:</label>
+                   <input type="text" name="nome">
 
-                <label for="email">E-mail:</label>
-                <input type="email" name="email">
+                   <label for="email">E-mail:</label>
+                   <input type="email" name="email">
 
-                <label for="número">Telefone:</label>
-                <input type="text" name="nome">
-                <button type="submit">Enviar</button>
+                   <label for="número">Telefone:</label>
+                   <input type="text" name="nome">
+
+                   <button type="submit">Enviar</button>
                 </form>
                 </div>
                 
@@ -85,7 +95,8 @@
     <footer>
 
         <div>
-            <a><img src="25231.png" ></a>
+            <a href="https://github.com/SrZarb" target="_blank"><img src="25231.png" ></a>
+            <a href="mailto:zarbrf@hotmail.com">zarbrf@hotmail.com</a>
         </div>
     </footer>
    <meta name>
